@@ -1,0 +1,7 @@
+def my_func(list_num = [0,1,2]):
+    var = 0
+    for i in list_num:
+        var += i
+    return var/len(list_num)
+print(my_func())
+print(my_func)
